@@ -22,11 +22,11 @@ class Homepage extends StatelessWidget {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
-                  Container(width: 160, color: Colors.pink),
+                  Container(width: 160, color: const Color.fromARGB(255, 255, 1, 3)),
                   Container(width: 160, color: const Color(0xFFFFDDE8)),
-                  Container(width: 160, color: Colors.pink),
+                  Container(width: 160, color: const Color.fromARGB(255, 255, 1, 2)),
                   Container(width: 160, color: const Color(0xFFFFDDE8)),
-                  Container(width: 160, color: Colors.pink),
+                  Container(width: 160, color: const Color.fromARGB(255, 255, 1, 1)),
                 ],
               ),
             ),
