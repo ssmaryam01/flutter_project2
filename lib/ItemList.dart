@@ -14,7 +14,7 @@ class HeadingItem implements ListItem {
     return Text(
       heading,
       style: const TextStyle(
-        color: Colors.blue,
+        color: Color.fromARGB(255, 255, 64, 128),
         fontSize: 24,
         fontWeight: FontWeight.bold,
       ),
@@ -35,7 +35,7 @@ class MessageItem implements ListItem {
   Widget buildTitle(BuildContext context) {
     return Row(
       children: [
-      const Icon(Icons.message, color: Colors.blue), // ikon di depan
+      const Icon(Icons.message, color: Color.fromARGB(255, 255, 64, 128)), // ikon di depan
       const SizedBox(width: 8),
       Text(sender),
       ],
@@ -45,7 +45,7 @@ class MessageItem implements ListItem {
   @override 
   Widget buildSubtitle(BuildContext context) => Text(body);
 }
-
+ 
 class ImageItem implements ListItem {
   final String imagePath;
   final String title;
@@ -80,7 +80,7 @@ class ImageItem implements ListItem {
       }else if (d % 3 == 0){
         // ignore: unused_local_variable
         final imageIndex = (d ~/ 3) % 3 + 1 ;
-        return ImageItem('images/meimei.jpeg', 'Image Item $d');
+        return ImageItem('images/bnb.webp', 'Image Item $d');
       }else{
         return MessageItem('sender Item $d', 'Message body $d');
       }

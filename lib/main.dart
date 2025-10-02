@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project2/widget.dart';
+import 'package:flutter_project2/Tugas4.dart';
+
 
 
 void main() {
@@ -14,7 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title:"Aplikasi Flutter",
       debugShowCheckedModeBanner: false,
-      home:Homepage()
+      home: Tugas()
       );
   }
 }
