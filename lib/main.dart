@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project2/profile.dart';
+import 'package:flutter_project2/list-gridview.dart';
 
 
 
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title:"Aplikasi Flutter",
       debugShowCheckedModeBanner: false,
-      home: Profile()
+      home: ListGridView()
       );
   }
 }
