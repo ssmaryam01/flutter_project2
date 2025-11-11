@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project2/list-gridview.dart';
+import 'package:flutter_project2/formvalidasi.dart';
 
 
 
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title:"Aplikasi Flutter",
       debugShowCheckedModeBanner: false,
-      home: ListGridView()
+      home: FormValidation()
       );
   }
 }
